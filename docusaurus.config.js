@@ -12,8 +12,8 @@ const config = {
 
   // Set the production url of your site here
     url: 'https://soap2g.github.io', // Your website URL
-  baseUrl: '/atlasopendata-website-v2',
-  projectName: 'soapw2g.github.io',
+  baseUrl: '/atlasopendata-website-v2/',
+  projectName: 'soap2g.github.io',
   organizationName: 'Soap2G',
   trailingSlash: false,
 
