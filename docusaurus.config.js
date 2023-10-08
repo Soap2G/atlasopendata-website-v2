@@ -11,10 +11,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://gguerrie.gitlab.cern.ch',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+    url: 'https://soap2g.github.io', // Your website URL
   baseUrl: '/atlasopendata',
+  projectName: 'soapw2g.github.io',
+  organizationName: 'Soap2G',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
