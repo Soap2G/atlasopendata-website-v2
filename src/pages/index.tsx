@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import MyMarkdownFile from '../../docs/index.mdx';
+import MyMarkdownFile from '../../docs/index.md';
 import Layout from '@theme/Layout';
 
 function HomepageHeader() {
