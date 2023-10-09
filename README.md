@@ -8,7 +8,9 @@
     - **[Deployment](#deployment)**
 - **[Structure of the repository](#structure-of-the-repository)** 
 - **[How to contribute](#how-to-contribute)**
-    - **[Enabling acron jobs](#enabling-acron-jobs)**
+    - **[Add single page to the website](#add-single-page-to-the-website)**
+    - **[Add new section to the website](#add-new-section-to-the-website)**
+    - **[Add content to existing section](#add-content-to-existing-section)**
 
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
