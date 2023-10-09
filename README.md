@@ -74,6 +74,13 @@ On the other hand, the content is stored in:
 ---
 
 ## How to contribute
+This section is _**NOT**_ intended to cover specialised operations, such as acting on the `javascript` content of the website or other technical tasks. 
+If any of these interventions are needed, three options are available:
+1. Get in touch with devs/experts
+2. Register a free account on https://chat.openai.com/
+3. Pray that issues will magically fix themselves
+
+This section deals with the implementation of content coming from MARKDOWN files.
 To add content, it is sufficient to add all the new pages in the `./docs` folder, _**making sure to follow these subsequent steps**_:
 
 <div align="center">
