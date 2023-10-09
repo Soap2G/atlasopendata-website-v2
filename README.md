@@ -57,6 +57,7 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
+---
 
 ## Structure of the repository
 
@@ -70,6 +71,8 @@ On the other hand, the content is stored in:
 - `./static`: contains images and logos for the website layout.
 - `./docs`: includes all the relevant information regarding ATLAS Open Data, written in `markddown`.
 
+---
+
 ## How to contribute
 To add content, it is sufficient to add all the new pages in the `./docs` folder, _**making sure to follow these subsequent steps**_:
 
@@ -79,7 +82,7 @@ To add content, it is sufficient to add all the new pages in the `./docs` folder
 
 </div>
 
-#### Add single page to the website
+### Add single page to the website
 1. Update the `./docusaurus.config.js` in correcspondence of the `themeConfig:` group; here you must look for `items: []` block, and add the correspoding section to it, e.g.:
 ```
 {
@@ -90,14 +93,15 @@ To add content, it is sufficient to add all the new pages in the `./docs` folder
 },
 ```
 This will add a new entry to the main menu in the header.
-2. (optional) Update the `./sidebars.js` file by adding to the `const sidebars = {}` block something like this:
+
+2. (_optional_) Update the `./sidebars.js` file by adding to the `const sidebars = {}` block something like this:
 ```
 intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!!!
   'atlas/lhc'
 ],
 ```
 
-#### Add new section to the website
+### Add new section to the website
 1. Update the `./docusaurus.config.js` in correcspondence of the `themeConfig:` group; here you must look for `items: []` block, and add the correspoding section to it, e.g.:
 ```
 {
@@ -108,6 +112,7 @@ intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!
 },
 ```
 This will add a new entry to the main menu in the header.
+
 2. Update the `./sidebars.js` file by adding to the `const sidebars = {}` block something like this:
 ```
 intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!!!
@@ -121,9 +126,9 @@ intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!
     ],
   }],
 ```
-#### Add content to existing section
+### Add content to existing section
 
-2. Update the `./sidebars.js` file by browsing the `const sidebars = {}` locating the correspoding section. Once found, add the link to the page to the `items: []` list:
+Update the `./sidebars.js` file by browsing the `const sidebars = {}` locating the correspoding section. Once found, add the link to the page to the `items: []` list:
 ```
 intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!!!
   {
