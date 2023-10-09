@@ -81,7 +81,7 @@ If any of these interventions are needed, three options are available:
 3. Pray that issues will magically fix themselves
 
 This section deals with the implementation of content coming from MARKDOWN files. <br>
-To add content, it is sufficient to add all the new pages in the `./docs` folder, possibly gathering the resources in folders without spreading thinks around, and _**making sure to follow these logical steps**_:
+To add content, it is sufficient to add all the new pages in the `./docs` directory, possibly gathering documents and images in folders, without spreading files around, and _**making sure to follow these logical steps**_:
 
 <div align="center">
 
