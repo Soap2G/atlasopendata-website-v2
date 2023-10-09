@@ -80,14 +80,15 @@ If any of these interventions are needed, three options are available:
 2. Register a free account on https://chat.openai.com/
 3. Pray that issues will magically fix themselves
 
-This section deals with the implementation of content coming from MARKDOWN files.
-To add content, it is sufficient to add all the new pages in the `./docs` folder, _**making sure to follow these subsequent steps**_:
+This section deals with the implementation of content coming from MARKDOWN files. <br>
+To add content, it is sufficient to add all the new pages in the `./docs` folder, possibly gathering the resources in folders without spreading thinks around, and _**making sure to follow these logical steps**_:
 
 <div align="center">
 
 ![Alt text](static/img/graph.png)
 
 </div>
+The operations contained in the square boxes are sumarised below.
 
 ### Add single page to the website
 1. Update the `./docusaurus.config.js` in correcspondence of the `themeConfig:` group; here you must look for `items: []` block, and add the correspoding section to it, e.g.:
