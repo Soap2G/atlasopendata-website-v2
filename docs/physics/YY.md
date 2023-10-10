@@ -1,3 +1,8 @@
+---
+# id: about
+title: "H to gamma-gamma production"
+---
+
 # Example of physics analysis: the case of SM Higgs boson production in the H &rarr; yy decay channel in the two-photon final state
 
 The H &rarr; yy decay mode provides a very clear and distinctive signature of two isolated and highly energetic photons, and is one of the main channels studied at the LHC. Despite the small branching ratio, a reasonably large signal yield can be obtained thanks to the high photon reconstruction and identification efficiency at the ATLAS experiment. Furthermore, due to the excellent photon energy resolution of the ATLAS calorimeter, the signal manifests itself as a narrow peak in the diphoton invariant mass spectrum on top of a smoothly falling irreducible background from QCD production of two photons.

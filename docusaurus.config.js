@@ -80,6 +80,12 @@ const config = {
             label: 'Introduction',
           },
           {
+            type: 'doc',
+            docId: 'about',
+            position: 'left',
+            label: 'About us',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'data8',
             position: 'left',

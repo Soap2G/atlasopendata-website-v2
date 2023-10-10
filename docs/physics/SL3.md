@@ -1,3 +1,8 @@
+---
+# id: about
+title: "Top-quark pair production in the single-lepton final state"
+---
+
 # Example of physics analysis: the case of the top-quark pair production in the single-lepton final state
 
 The top quark is the heaviest elementary particle in the SM, with a mass mt of around 172.5 GeV, which is close to the electroweak symmetry breaking scale. At the LHC, top quarks are primarily produced in quark–antiquark pairs (tt), and due to its large production cross section ( around 830 pb at 13 TeV), the LHC can be viewed as "a top-quark factory". Top quarks have a rich phenomenology which includes high-p<sub>T</sub> jets, b-jets, leptons and missing transverse momentum. Its understanding is crucial for studying rarer processes, given that tt production is a background to virtually all processes having leptons and multiple jets in their final states.

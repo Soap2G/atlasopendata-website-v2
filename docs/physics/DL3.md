@@ -1,3 +1,8 @@
+---
+# id: about
+title: "Supersymmetric particles in the two-lepton final state"
+---
+
 # Example of physics analysis: the case of a search for supersymmetric particles in the two-lepton final state
 
 Supersymmetry (SUSY) is one of the most studied extensions of the SM. In its minimal form it predicts new fermionic (bosonic) partners of the fundamental SM bosons (fermions) and an additional Higgs doublet. These new SUSY particles, or "sparticles", can provide an elegant solution to the gauge hierarchy problem and provide a natural candidate for dark matter in cases where the lightest supersymmetric particle is a so called weekly interacting massive particle.

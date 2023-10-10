@@ -1,3 +1,9 @@
+---
+# id: about
+title: "t-channel Single-top production in the single-lepton final state"
+---
+
+
 # Example of physics analysis: the case of t-channel single-top-quark production in the single-lepton final state
 
 At hadron colliders, top quarks are predominantly produced in pairs via the flavour conserving strong interaction, but single top-quark production can occur via charged current electroweak processes involving a Wtb vertex. At leading order (LO) in quantum chromodynamics (QCD) perturbation theory, three sub-processes contribute to single top-quark production: an exchange of a virtual W boson either in the

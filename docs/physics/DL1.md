@@ -1,3 +1,8 @@
+---
+# id: about
+title: "Z-boson production in the two-lepton final state"
+---
+
 # Example of physics analysis: the case of the SM Z-boson production in the two-lepton final state
 
 The study of Z-boson production in pp collisions provides a stringent test of perturbative QCD. In addition, the SM Z-boson process, often produced in association with one or more jets, is a significant background to searches for the SM Higgs boson and for physics beyond the SM.
