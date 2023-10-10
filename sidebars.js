@@ -24,6 +24,28 @@ const sidebars = {
         'atlas/atlas_events'
       ],
     }],
+  data8: [
+      {
+        type: 'category',
+        label: '8 TeV Open Datasets',
+        items: [
+        '8TeVDoc/overview',
+        '8TeVDoc/atlas_events',
+        '8TeVDoc/data_and_simulated_data',
+        '8TeVDoc/atlas_higgs_animations',
+        '8TeVDoc/analyses',
+        '8TeVDoc/gettingstarted',
+        '8TeVDoc/take_a_look_at_the_data',
+        '8TeVDoc/take_a_closer_look',
+        '8TeVDoc/histograms',
+        '8TeVDoc/more_histograms',
+        '8TeVDoc/create-a-new-plot',
+        '8TeVDoc/event_selection',
+        '8TeVDoc/variable_names',
+        '8TeVDoc/glossary',
+        '8TeVDoc/simulated_data_details',
+        ],
+      }],
   data13: [
     {
       type: 'category',
@@ -39,7 +61,7 @@ const sidebars = {
         'datasets/evolution'
       ],
     }],
-    physicsexamples: [
+  physicsexamples: [
     {
       type: 'category',
       label: 'Physics analysis examples',
