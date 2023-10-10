@@ -8,6 +8,7 @@
     - **[Deployment](#deployment)**
 - **[Structure of the repository](#structure-of-the-repository)** 
 - **[How to contribute](#how-to-contribute)**
+    - **[Best practices](#best-practices)**
     - **[Add single page to the website](#add-single-page-to-the-website)**
     - **[Add new section to the website](#add-new-section-to-the-website)**
     - **[Add content to existing section](#add-content-to-existing-section)**
@@ -74,6 +75,7 @@ On the other hand, the content is stored in:
 ---
 
 ## How to contribute
+
 This section is _**NOT**_ intended to cover specialised operations, such as acting on the `javascript` content of the website or other technical tasks. 
 If any of these interventions are needed, three options are available:
 1. Get in touch with devs/experts
@@ -81,6 +83,30 @@ If any of these interventions are needed, three options are available:
 3. Pray that issues will magically fix themselves
 
 This section deals with the implementation of content coming from MARKDOWN files. <br>
+
+### Best practices
+All documents written in markdown should follow these technical guidelines:
+- All images **must** be embedded as `![placeholder-text(optional)](path-to-the-image.extension)`. In order to adjust width, height, and other attributes, please use an HTML `<div>` implemented in the following way:
+  ```
+<div align="center" width="500">
+
+![alt_image](pictures/Output/vxp_z.jpg)
+
+</div>
+  ```
+**New lines matter!** Make sure you have an empty line between the image and the `div` tags.
+
+- _**TECHNICAL**_ If you need a specific setting for an image, you can use `css` classes. in the `/src/css/custom.css` file there is the possibility to implement a new class to be used in a `div`. Notice that classes like `quickstart-image` and `quickstart-small-image` are already present and ready to be used. Their implementation can be achieved by doing:
+  ```
+<div align="center" class="quickstart-small-image">
+
+![alt_image](pictures/Output/vxp_z.jpg)
+
+</div>
+  ```
+
+---
+
 To add content, it is sufficient to add all the new pages in the `./docs` directory, possibly gathering documents and images in folders, without spreading files around, and _**making sure to follow these logical steps**_:
 
 <div align="center">
