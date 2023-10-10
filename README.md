@@ -88,24 +88,24 @@ This section deals with the implementation of content coming from MARKDOWN files
 All documents written in markdown should follow these technical guidelines:
 - All images **must** be embedded as `![placeholder-text(optional)](path-to-the-image.extension)`. <br>
   In order to adjust width, height, and other attributes, please use an HTML `<div>` implemented in the following way:
-  ```html
+```html
 <div align="center" width="500">
 
 ![alt_image](pictures/Output/vxp_z.jpg)
 
 </div>
-  ```
+```
 **New lines matter!** Make sure you have an empty line between the image and the `div` tags.
 
 - _**TECHNICAL**_ If you need a specific setting for an image, you can use `css` classes. in the `/src/css/custom.css` file there is the possibility to implement a new class to be used in a `div`. <br>
   Notice that classes like `quickstart-image` and `quickstart-small-image` are already present and ready to be used. Their implementation can be achieved by doing:
-  ```html
+```html
 <div align="center" class="quickstart-small-image">
 
 ![alt_image](pictures/Output/vxp_z.jpg)
 
 </div>
-  ```
+```
 
 ---
 
