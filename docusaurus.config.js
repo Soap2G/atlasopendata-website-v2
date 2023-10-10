@@ -81,6 +81,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'data8',
+            position: 'left',
+            label: '8 TeV Open Datasets',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'data13',
             position: 'left',
             label: '13 TeV Open Datasets',

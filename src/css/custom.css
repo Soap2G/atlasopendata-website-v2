@@ -46,3 +46,17 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.quickstart-small-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items:center;
+}
+
+.quickstart-small-image img {
+  max-width: 40%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
