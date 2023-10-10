@@ -1,3 +1,8 @@
+---
+# id: about
+title: "W-boson production in the single-lepton final state"
+---
+
 # Example of physics analysis: the case of SM W-boson production in the single-lepton final state
 
 W-bosons are produced abundantly at the LHC and the measurements of the inclusive production cross section of the W bosons and of the asymmetry between the positively-charged and negatively-charged W-boson cross sections constitute important tests of the SM. In addition, W+jets processes are a significant background to studies of SM processes such as single-top production, top-quark pair production, as well as searches for the SM Higgs boson and for BSM physics.

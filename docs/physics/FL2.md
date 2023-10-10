@@ -1,3 +1,8 @@
+---
+# id: about
+title: "H production in the ZZ channel"
+---
+
 # Example of physics analysis: the case of SM Higgs boson production in the H &rarr; ZZ decay channel in the four-lepton final state
 
 The search for the SM Higgs boson through the decay H &rarr;  ZZ &rarr; 4l, where l = e or &mu;, represents the so called "golden channel" and leads to a narrow four-lepton invariant-mass peak on top a relatively smooth and small background, largely due to the excellent momentum resolution of the ATLAS detector. The Higgs-boson decay branching ratio to the four-lepton final state for the Higgs boson mass of 125 GeV is predicted

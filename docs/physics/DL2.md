@@ -1,3 +1,8 @@
+---
+# id: about
+title: "H production in the WW channel"
+---
+
 # Example of physics analysis: the case of the SM Higgs boson production in the H &rarr; WW decay channel in the two-lepton final state
 
 As described in the "Brief introduction to the Higgs Boson", the H &rarr; WW decay branching ratio for the Higgs boson with a mass of 125 GeV is predicted to be 0.214 in the SM, and corresponds to the second-largest branching fraction after the dominant H &rarr; bb decay mode.

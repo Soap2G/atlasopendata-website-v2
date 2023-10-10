@@ -86,6 +86,18 @@ This section deals with the implementation of content coming from MARKDOWN files
 
 ### Best practices
 All documents written in markdown should follow these technical guidelines:
+- All `markdown` documents sould have a metadata frontmatter, which is this snippet at the very top:
+```
+---
+title: "WZ diboson production in the three-lepton final state"
+---
+```
+This information allows to customise titles and IDs of the pages. Very important. <br>
+#### EXCEPTION
+For standalone pages (linked in the main menu, see [here](#add-single-page-to-the-website)), you have to add also the `id: ` field in metadata, so that the page can be correctly linked.
+
+---
+
 - All images **must** be embedded as `![placeholder-text(optional)](path-to-the-image.extension)`. <br>
   In order to adjust width, height, and other attributes, please use an HTML `<div>` implemented in the following way:
 ```html
@@ -96,6 +108,8 @@ All documents written in markdown should follow these technical guidelines:
 </div>
 ```
 **New lines matter!** Make sure you have an empty line between the image and the `div` tags.
+
+---
 
 - _**TECHNICAL**_ If you need a specific setting for an image, you can use `css` classes. in the `/src/css/custom.css` file there is the possibility to implement a new class to be used in a `div`. <br>
   Notice that classes like `quickstart-image` and `quickstart-small-image` are already present and ready to be used. Their implementation can be achieved by doing:
@@ -122,10 +136,10 @@ The operations contained in the square boxes are sumarised below.
 1. Update the `./docusaurus.config.js` in correcspondence of the `themeConfig:` group; here you must look for `items: []` block, and add the correspoding section to it, e.g.:
 ```js
 {
-  type: 'docSidebar', // This is a preset normally effective, do not change
-  sidebarId: 'intro', // The ID of the corresponding sidebar. Choose the name wisely, this will be needed after.
+  type: 'doc', // This is a preset regarding the type of document, please update if needed
+  docId: 'about', // The ID of the corresponding document. This should match with what you wrote in the document header.
   position: 'left',
-  label: 'Introduction', // The title that will appear on the menu
+  label: 'About us', // The title that will appear on the menu
 },
 ```
 This will add a new entry to the main menu in the header.

@@ -1,3 +1,8 @@
+---
+# id: about
+title: "Z' to top-quark-pairs in the single-lepton channel"
+---
+
 # Example of physics analysis: the case of a search for BSM Z' &rarr; tt in the single-lepton boosted final state
 
 Despite the spectacular phenomenological and experimental success of the SM, searches for new physics phenomena at the LHC are constantly ongoing. As an example, with a mass close to the scale of electroweak symmetry breaking, the top quark, besides having a large coupling to the SM Higgs boson, is predicted to have large couplings to new particles hypothesised in many BSM models.

@@ -1,3 +1,8 @@
+---
+# id: about
+title: "Z-boson production in the two-tau-lepton final state"
+---
+
 # Example of physics analysis: the case of SM Z-boson production in the two-tau-lepton final state
 
 The &tau;-leptons play an important role in the physics programme of the LHC. They serve not only as a
