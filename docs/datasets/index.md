@@ -1,6 +1,9 @@
-import { DocImage } from '@site/src/components/DocImage';
+<div align="center">
 
-<DocImage src="/img/aod/detector_background.png" alt="ATLAS bkgr" ></DocImage>
+![Alt text](../images/detector_background.png)
+
+</div>
+
 
 # **The ATLAS Open Data 13 TeV docs**
 
