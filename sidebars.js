@@ -51,6 +51,7 @@ const sidebars = {
       type: 'category',
       label: '13 TeV Open Datasets',
       items: [
+        'datasets/index',
         'datasets/intro',
         'datasets/objects',
         'datasets/dataset13',
