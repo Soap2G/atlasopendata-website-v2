@@ -120,7 +120,7 @@ The operations contained in the square boxes are sumarised below.
 
 ### Add single page to the website
 1. Update the `./docusaurus.config.js` in correcspondence of the `themeConfig:` group; here you must look for `items: []` block, and add the correspoding section to it, e.g.:
-```
+```js
 {
   type: 'docSidebar', // This is a preset normally effective, do not change
   sidebarId: 'intro', // The ID of the corresponding sidebar. Choose the name wisely, this will be needed after.
@@ -131,7 +131,7 @@ The operations contained in the square boxes are sumarised below.
 This will add a new entry to the main menu in the header.
 
 2. (_optional_) Update the `./sidebars.js` file by adding to the `const sidebars = {}` block something like this:
-```
+```js
 intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!!!
   'atlas/lhc'
 ],
@@ -139,7 +139,7 @@ intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!
 
 ### Add new section to the website
 1. Update the `./docusaurus.config.js` in correcspondence of the `themeConfig:` group; here you must look for `items: []` block, and add the correspoding section to it, e.g.:
-```
+```js
 {
   type: 'docSidebar', // This is a preset normally effective, do not change
   sidebarId: 'intro', // The ID of the corresponding sidebar. Choose the name wisely, this will be needed after.
@@ -150,7 +150,7 @@ intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!
 This will add a new entry to the main menu in the header.
 
 2. Update the `./sidebars.js` file by adding to the `const sidebars = {}` block something like this:
-```
+```js
 intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!!!
   {
     type: 'category',
@@ -165,7 +165,7 @@ intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!
 ### Add content to existing section
 
 Update the `./sidebars.js` file by browsing the `const sidebars = {}` locating the correspoding section. Once found, add the link to the page to the `items: []` list:
-```
+```js
 intro: [ // THE NAME OF THE ITEM MUST CORRESPOND TO THE sidebarId CHOSEN BEFORE!!!
   {
     type: 'category',
